@@ -4,15 +4,17 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-
-<?php
-echo date("Y-m-d");
-
-?>
-<br/>
 <div class=dizainas>
-    © 2012 Marek Inc. All rights reserved.
+
+    <?php
+    echo date("Y-m-d");
+
+    ?>
+    <div class="push"> </div>
+</div>
+<div class="footer">
+    2012 Marek Inc. All rights reserved.
+
 </div>
 </body>
 

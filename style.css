@@ -1,4 +1,26 @@
 div {
-    background: #F7FBFA;
+    background: #E6CCCC;
     text-align: center;
 }
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.dizainas {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
