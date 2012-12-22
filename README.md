@@ -1,0 +1,4 @@
+bendras
+=======
+
+darbas kartu
