@@ -10,7 +10,10 @@
 echo date("Y-m-d");
 
 ?>
-
+<br/>
+<div class=dizainas>
+    © 2012 Marek Inc. All rights reserved.
+</div>
 </body>
 
 </html>
