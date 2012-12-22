@@ -5,11 +5,11 @@
 </head>
 <body>
 
-
+<div>
 <?php
 echo date("Y-m-d");
 
-
+</div>
 
 </body>
 
