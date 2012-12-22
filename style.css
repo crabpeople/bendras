@@ -9,6 +9,7 @@ html, body {
     height: 100%;
 }
 .dizainas {
+    font-size: 32pt;
     min-height: 100%;
     height: auto !important;
     height: 100%;

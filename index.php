@@ -7,10 +7,25 @@
 <div class=dizainas>
 
     <?php
-    echo date("Y-m-d");
+    $laikas=date('Y-m-d');
+    echo "<div class='data'>$laikas</div>";
 
     ?>
-    <div class="push"> </div>
+    <script src='http://code.jquery.com/jquery-1.8.3.js'></script>
+    <script>
+        $(function(){
+            var $laikas=$('.data');
+            $laikas.click(
+                function(){
+                    $(this).fadeOut('fast');
+                });
+
+        });
+
+
+    </script>
+
+<!--    <div class="push"> </div>-->
 </div>
 <div class="footer">
     2012 Marek Inc. All rights reserved.
