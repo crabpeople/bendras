@@ -11,15 +11,33 @@
     echo "<div class='data'>$laikas</div>";
 
     ?>
+    <p class = 'laikas'></p>
     <script src='http://code.jquery.com/jquery-1.8.3.js'></script>
     <script>
         $(function(){
-            var $laikas=$('.data');
+            var $data=$('.data');
+            var $laikas=$('.laikas');
             $laikas.click(
                 function(){
                     $(this).fadeOut('fast');
                 });
+            $data.click(
+                function(){
+                    $(this).fadeOut('fast');
+                });
 
+        });
+
+        $(function(){
+            window.setInterval(function(){
+                var d = new Date();
+                $('p').html(x(d.getHours()) + ':' + x(d.getMinutes()) + ':' + x(d.getSeconds()));
+            }, 100);
+
+            function x(t){
+                t < 10 ? t = '0' + t.toString() : t;
+                return t;
+            }
         });
 
 
