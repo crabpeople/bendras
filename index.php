@@ -1,2 +1,2 @@
 <?php
-echo date("Ymd");
+echo date("Y-m-d");
