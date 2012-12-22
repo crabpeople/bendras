@@ -11,6 +11,10 @@ echo date("Y-m-d");
 
 </div>
 
+    <div class=dizainas>
+    © 2012 Marek Inc. All rights reserved.
+    </div>
+
 </body>
 
 </html>
